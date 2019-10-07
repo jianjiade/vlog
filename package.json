@@ -1,0 +1,13 @@
+{
+  "name": "vlog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jianjiade/vlog.git",
+  "author": "jianjia <i@jianjia.de>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "d": "bash deploy.sh"
+  }
+}
